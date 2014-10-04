@@ -1,4 +1,4 @@
-define(["lib/selfish"], function(selfish) {
+define(["selfish"], function(selfish) {
     var Base = selfish.Base;
     var Victory = Base.extend({
         initialize: function(value) {

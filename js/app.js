@@ -1,4 +1,4 @@
-define(["src/card"], function(c) {
+define(["card"], function(c) {
     return {
         start: function() {
         },

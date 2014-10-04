@@ -45,7 +45,7 @@ module.exports = function(grunt) {
         },
         sys: ['Gruntfile.js', 'package.json'],
         //tests: ['test/**/*.js'],
-        src: ['src/**/*.js'],
+        js: ['js/**/*.js'],
     },
     'http-server': {
 

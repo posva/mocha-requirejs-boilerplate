@@ -2,7 +2,7 @@ var requirejs = require("requirejs");
 var assert = require("assert");
 var should = require("should");
 requirejs.config({
-    baseUrl: '.',
+    baseUrl: 'js',
     nodeRequire: require
 });
 
@@ -11,7 +11,7 @@ describe('Card Testing', function() {
     // Load modules with requirejs before tests
     var Card, Victory;
     before(function(done) {
-        requirejs(['src/card', 'src/victory'], function(card, victory) {
+        requirejs(['card', 'victory'], function(card, victory) {
             Card = card;
             Victory = victory;
             done();
